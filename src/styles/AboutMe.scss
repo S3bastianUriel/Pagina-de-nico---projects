@@ -1,0 +1,199 @@
+body {
+    margin: 0px;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    background: white;
+    /* background-color: rgb(19, 19, 19); */
+    background-color: white;
+}
+ 
+.aboutme {
+    padding-top: 60px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.aboutme__content {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 120px;
+    padding-right: 120px;
+    gap: 40px;
+    align-items: center;
+}
+
+.aboutme__content--item {
+    display: flex;
+    flex-direction: column;
+    // align-content: center;
+    // justify-content: center;
+    align-items: center;
+    // flex-direction: row;
+}
+
+.aboutme__content--item--pic {
+    // width: 385px;
+    // height: 367px;
+    width: 240px;
+    height: 338px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.aboutme__content--item--pic img {
+    // width: 385px;
+    // height: 367px;
+    width: 240px;
+    height: 338px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.aboutme__content--item--buttons {
+    margin: 10px 0px 0 0px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    // font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 35px;
+    width: 350px;
+    background-color: rgba(53,144,214,1);
+    transition: background-color .4s;
+}
+
+.aboutme__content--data {
+    // padding-top: 100px;
+    // width: 100%;
+    display: flex;
+    flex-direction: column ;
+    margin-top: -120px;
+    // align-items: center;
+}
+.aboutme__content--data h2 {
+    color: rgba(53,144,214,1);
+    // text-align: center;
+}
+.aboutme__content--data p {
+    // padding-top: -50px;
+}
+
+.aboutme__list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px 80px;
+}
+.aboutme__list--item {
+    width: 40%;
+    // padding: 20px 20px 20px 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    // gap: 5px;
+    // gap: 110px;
+}
+
+.aboutme__list--item span {
+    font-size: 14px;
+}
+.aboutme__list--item p {
+    font-size: 12px;
+}
+
+.aboutme__list--item li {
+    font-size: 14px;
+    gap: 40px;
+    margin-top: 8px;
+    
+}
+
+.aboutme__list--item ul {
+    font-size: 14px;
+    list-style-type: square
+    // gap: 80px 30px 80px 30px;
+}
+
+
+
+
+@media (max-width: 640px) {
+    .aboutme__content {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        gap: 0px;
+        align-items: center;
+    }
+    .aboutme__content--item--pic {
+        // padding-left: 10px;
+        // padding-right: 10px;
+        width: 325px;
+        height: 307px;
+        object-fit: cover;
+    }
+    .aboutme__content--item--pic img {
+        width: 325px;
+        height: 307px;
+        object-fit: cover;
+    }
+    .aboutme__content--item--buttons {
+        margin: 10px 0px 0 0px;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        // font-weight: bold;
+        border-radius: 5px;
+        font-size: 14px;
+        height: 30px;
+        width: 320px;
+        background-color: rgba(53,144,214,1);
+        transition: background-color .4s;
+    }
+
+    .aboutme__content--data {
+        display: flex;
+        flex-direction: column ;
+        justify-content: center;
+        padding-top: 120px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .aboutme__content--data h2{
+        text-align: center;
+    }
+    
+    .aboutme__content--data p {
+        font-size: 14px;
+    }
+
+
+
+    .aboutme__list {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0px 0px;
+        padding-top: 50px;
+
+    }
+    .aboutme__list--item {
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
