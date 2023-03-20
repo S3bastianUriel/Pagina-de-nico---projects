@@ -54,7 +54,7 @@ function Footer() {
                     {/* <img src={logo} alt=""/> */}
                     <ul className="footer__contact--list">
                     {/* <ul> */}
-                        <span><strong>Email</strong>: nicolasantivanez1994zymx@gmail.com</span>
+                        <span><strong>Email</strong>: nicolas94santivanez94@gmail.com</span>
                         <span><strong>WhatsApp</strong>: +54 9 11 6573-4879</span>
                     </ul>
                 </div>
